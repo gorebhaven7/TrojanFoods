@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5126505D2B40A7F2000EF588 /* TrojanFoodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126505C2B40A7F2000EF588 /* TrojanFoodsApp.swift */; };
+		5126505F2B40A7F2000EF588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126505E2B40A7F2000EF588 /* ContentView.swift */; };
+		512650612B40A7F3000EF588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512650602B40A7F3000EF588 /* Assets.xcassets */; };
+		512650642B40A7F3000EF588 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512650632B40A7F3000EF588 /* Preview Assets.xcassets */; };
+		5126506E2B40A7F3000EF588 /* TrojanFoodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126506D2B40A7F3000EF588 /* TrojanFoodsTests.swift */; };
+		512650782B40A7F3000EF588 /* TrojanFoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512650772B40A7F3000EF588 /* TrojanFoodsUITests.swift */; };
+		5126507A2B40A7F3000EF588 /* TrojanFoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512650792B40A7F3000EF588 /* TrojanFoodsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5126506A2B40A7F3000EF588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512650512B40A7F2000EF588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512650582B40A7F2000EF588;
+			remoteInfo = TrojanFoods;
+		};
+		512650742B40A7F3000EF588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512650512B40A7F2000EF588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512650582B40A7F2000EF588;
+			remoteInfo = TrojanFoods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		512650592B40A7F2000EF588 /* TrojanFoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrojanFoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5126505C2B40A7F2000EF588 /* TrojanFoodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrojanFoodsApp.swift; sourceTree = "<group>"; };
+		5126505E2B40A7F2000EF588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		512650602B40A7F3000EF588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		512650632B40A7F3000EF588 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		512650692B40A7F3000EF588 /* TrojanFoodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrojanFoodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5126506D2B40A7F3000EF588 /* TrojanFoodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrojanFoodsTests.swift; sourceTree = "<group>"; };
+		512650732B40A7F3000EF588 /* TrojanFoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrojanFoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		512650772B40A7F3000EF588 /* TrojanFoodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrojanFoodsUITests.swift; sourceTree = "<group>"; };
+		512650792B40A7F3000EF588 /* TrojanFoodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrojanFoodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512650562B40A7F2000EF588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512650662B40A7F3000EF588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512650702B40A7F3000EF588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		512650502B40A7F2000EF588 = {
+			isa = PBXGroup;
+			children = (
+				5126505B2B40A7F2000EF588 /* TrojanFoods */,
+				5126506C2B40A7F3000EF588 /* TrojanFoodsTests */,
+				512650762B40A7F3000EF588 /* TrojanFoodsUITests */,
+				5126505A2B40A7F2000EF588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5126505A2B40A7F2000EF588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512650592B40A7F2000EF588 /* TrojanFoods.app */,
+				512650692B40A7F3000EF588 /* TrojanFoodsTests.xctest */,
+				512650732B40A7F3000EF588 /* TrojanFoodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5126505B2B40A7F2000EF588 /* TrojanFoods */ = {
+			isa = PBXGroup;
+			children = (
+				5126505C2B40A7F2000EF588 /* TrojanFoodsApp.swift */,
+				5126505E2B40A7F2000EF588 /* ContentView.swift */,
+				512650602B40A7F3000EF588 /* Assets.xcassets */,
+				512650622B40A7F3000EF588 /* Preview Content */,
+			);
+			path = TrojanFoods;
+			sourceTree = "<group>";
+		};
+		512650622B40A7F3000EF588 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				512650632B40A7F3000EF588 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5126506C2B40A7F3000EF588 /* TrojanFoodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5126506D2B40A7F3000EF588 /* TrojanFoodsTests.swift */,
+			);
+			path = TrojanFoodsTests;
+			sourceTree = "<group>";
+		};
+		512650762B40A7F3000EF588 /* TrojanFoodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				512650772B40A7F3000EF588 /* TrojanFoodsUITests.swift */,
+				512650792B40A7F3000EF588 /* TrojanFoodsUITestsLaunchTests.swift */,
+			);
+			path = TrojanFoodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512650582B40A7F2000EF588 /* TrojanFoods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5126507D2B40A7F3000EF588 /* Build configuration list for PBXNativeTarget "TrojanFoods" */;
+			buildPhases = (
+				512650552B40A7F2000EF588 /* Sources */,
+				512650562B40A7F2000EF588 /* Frameworks */,
+				512650572B40A7F2000EF588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrojanFoods;
+			productName = TrojanFoods;
+			productReference = 512650592B40A7F2000EF588 /* TrojanFoods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		512650682B40A7F3000EF588 /* TrojanFoodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512650802B40A7F3000EF588 /* Build configuration list for PBXNativeTarget "TrojanFoodsTests" */;
+			buildPhases = (
+				512650652B40A7F3000EF588 /* Sources */,
+				512650662B40A7F3000EF588 /* Frameworks */,
+				512650672B40A7F3000EF588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5126506B2B40A7F3000EF588 /* PBXTargetDependency */,
+			);
+			name = TrojanFoodsTests;
+			productName = TrojanFoodsTests;
+			productReference = 512650692B40A7F3000EF588 /* TrojanFoodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		512650722B40A7F3000EF588 /* TrojanFoodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512650832B40A7F3000EF588 /* Build configuration list for PBXNativeTarget "TrojanFoodsUITests" */;
+			buildPhases = (
+				5126506F2B40A7F3000EF588 /* Sources */,
+				512650702B40A7F3000EF588 /* Frameworks */,
+				512650712B40A7F3000EF588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512650752B40A7F3000EF588 /* PBXTargetDependency */,
+			);
+			name = TrojanFoodsUITests;
+			productName = TrojanFoodsUITests;
+			productReference = 512650732B40A7F3000EF588 /* TrojanFoodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		512650512B40A7F2000EF588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					512650582B40A7F2000EF588 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					512650682B40A7F3000EF588 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 512650582B40A7F2000EF588;
+					};
+					512650722B40A7F3000EF588 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 512650582B40A7F2000EF588;
+					};
+				};
+			};
+			buildConfigurationList = 512650542B40A7F2000EF588 /* Build configuration list for PBXProject "TrojanFoods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 512650502B40A7F2000EF588;
+			productRefGroup = 5126505A2B40A7F2000EF588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512650582B40A7F2000EF588 /* TrojanFoods */,
+				512650682B40A7F3000EF588 /* TrojanFoodsTests */,
+				512650722B40A7F3000EF588 /* TrojanFoodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512650572B40A7F2000EF588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512650642B40A7F3000EF588 /* Preview Assets.xcassets in Resources */,
+				512650612B40A7F3000EF588 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512650672B40A7F3000EF588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512650712B40A7F3000EF588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512650552B40A7F2000EF588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5126505F2B40A7F2000EF588 /* ContentView.swift in Sources */,
+				5126505D2B40A7F2000EF588 /* TrojanFoodsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512650652B40A7F3000EF588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5126506E2B40A7F3000EF588 /* TrojanFoodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5126506F2B40A7F3000EF588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5126507A2B40A7F3000EF588 /* TrojanFoodsUITestsLaunchTests.swift in Sources */,
+				512650782B40A7F3000EF588 /* TrojanFoodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5126506B2B40A7F3000EF588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512650582B40A7F2000EF588 /* TrojanFoods */;
+			targetProxy = 5126506A2B40A7F3000EF588 /* PBXContainerItemProxy */;
+		};
+		512650752B40A7F3000EF588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512650582B40A7F2000EF588 /* TrojanFoods */;
+			targetProxy = 512650742B40A7F3000EF588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5126507B2B40A7F3000EF588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5126507C2B40A7F3000EF588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5126507E2B40A7F3000EF588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrojanFoods/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trojancoders.TrojanFoods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5126507F2B40A7F3000EF588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrojanFoods/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trojancoders.TrojanFoods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		512650812B40A7F3000EF588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trojancoders.TrojanFoodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrojanFoods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrojanFoods";
+			};
+			name = Debug;
+		};
+		512650822B40A7F3000EF588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trojancoders.TrojanFoodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrojanFoods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrojanFoods";
+			};
+			name = Release;
+		};
+		512650842B40A7F3000EF588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trojancoders.TrojanFoodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrojanFoods;
+			};
+			name = Debug;
+		};
+		512650852B40A7F3000EF588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trojancoders.TrojanFoodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrojanFoods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512650542B40A7F2000EF588 /* Build configuration list for PBXProject "TrojanFoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5126507B2B40A7F3000EF588 /* Debug */,
+				5126507C2B40A7F3000EF588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5126507D2B40A7F3000EF588 /* Build configuration list for PBXNativeTarget "TrojanFoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5126507E2B40A7F3000EF588 /* Debug */,
+				5126507F2B40A7F3000EF588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512650802B40A7F3000EF588 /* Build configuration list for PBXNativeTarget "TrojanFoodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512650812B40A7F3000EF588 /* Debug */,
+				512650822B40A7F3000EF588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512650832B40A7F3000EF588 /* Build configuration list for PBXNativeTarget "TrojanFoodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512650842B40A7F3000EF588 /* Debug */,
+				512650852B40A7F3000EF588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 512650512B40A7F2000EF588 /* Project object */;
+}
